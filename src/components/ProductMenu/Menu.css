@@ -1,0 +1,22 @@
+.food-display_m{
+    margin-top: 30px;
+}
+
+.food-display_m h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+
+.food-display-list_m {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr)); /* Adjust column width as needed */
+    gap: 20px; /* Adjust gap between items as needed */
+    margin-top: 30px;
+    overflow: hidden; /* Hide overflow to prevent scrolling */
+}
+
+
+.food-display-list_m::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers (Chrome, Safari, Opera) */
+}
+

@@ -1,0 +1,26 @@
+.food-display{
+    margin-top: 30px;
+}
+
+.food-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+
+.food-display-list {
+    display: grid;
+    grid-auto-columns: 25%;
+    margin-top: 30px;
+    row-gap: 50px;
+    grid-column-gap: 20px;
+    grid-auto-flow: column;
+    overflow: hidden; /* Hide scrollbar */
+    overflow-x: auto; /* Enable horizontal scroll */
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.food-display-list::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers (Chrome, Safari, Opera) */
+}

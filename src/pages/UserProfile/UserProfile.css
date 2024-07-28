@@ -1,0 +1,31 @@
+.My_imformationcard{
+    border: 2px  solid #eaeaea;
+    height: 75vh;    
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row; 
+   box-shadow: 0 0 8px 0 rgba(0,0,0,0.1);
+}
+.Left_sidebar{
+    border: 2px  solid #eaeaea;  
+    width: 20%;
+}
+.right_imformation{
+    width: 80%;
+    overflow: scroll;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.navigation a{
+    text-align: justify;
+    font-size: larger;
+    border: 1px solid #eeee;
+    padding: 8px;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: #ba08a8;
+}

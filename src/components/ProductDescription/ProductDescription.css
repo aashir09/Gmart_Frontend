@@ -1,0 +1,25 @@
+.descriptionbox-navigator{
+    display: flex;
+
+}
+.descriptionbox-nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 172px;
+    height: 50px;
+    border: 1px solid #d0d0d0;
+    cursor: pointer;
+}
+
+.descriptionbox-description{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        border: 1px solid #d0d0d0;
+        padding: 24px;
+        padding-bottom: 7px;
+}
